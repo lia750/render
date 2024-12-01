@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vendor Dashboard</title>
+</head>
+<body>
+    <h2>Welcome to your Vendor Dashboard, {{ user.username }}</h2>
+    <h3>Your Services:</h3>
+    <ul>
+        {% for service in services %}
+            <li>{{ service.name }} - {{ service.price }} USD</li>
+        {% endfor %}
+    </ul>
+    <a href="{% url 'create_service' %}">Create New Service</a>
+</body>
+</html>
