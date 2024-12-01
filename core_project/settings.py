@@ -16,7 +16,8 @@ SECRET_KEY = 'django-insecure-vi$=5jpxwwrv29d0l4*sl#4m866h-eab8&_&8syj4lz9t5t3eb
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['localhost', '127.0.0.1', 'gowabi-clone.onrender.com']
+
 
 
 # Application definition
