@@ -1,5 +1,4 @@
 anyio==4.0.0
-apturl
 argcomplete==1.8.1
 argon2-cffi==23.1.0
 argon2-cffi-bindings==21.2.0
